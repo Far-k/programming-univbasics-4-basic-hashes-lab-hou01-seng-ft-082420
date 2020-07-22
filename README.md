@@ -114,6 +114,7 @@ The value will be set to whatever the parameter is:
 
 ```rb
 def id_hash_generator(number)
+  id: => 5
   { id: number }
 end
 ```
