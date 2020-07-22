@@ -113,7 +113,7 @@ returned. Similar to the previous methods, we return a hash, giving it one key.
 The value will be set to whatever the parameter is:
 
 ```rb
-def id_hash_generator(number)
+def id_hash_generator(31)
   {
     id: 31
   }
